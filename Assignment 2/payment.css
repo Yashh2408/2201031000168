@@ -1,0 +1,713 @@
+.unsplashg8wprjynqwq-icon5 {
+    height: 1024px;
+    width: 1440px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  .logo-2-icon3 {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    object-fit: cover;
+    z-index: 1;
+  }
+  .div,
+  .evtaxi6 {
+    flex: 1;
+    position: relative;
+  }
+  .div {
+    align-self: stretch;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    z-index: 1;
+  }
+  .evtaxi6 {
+    height: 80px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 2;
+    margin: 0 0 0-181px;
+  }
+  .card-selection-frame {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .card-selection-frame-child {
+    align-self: stretch;
+    width: 195px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    display: none;
+  }
+  .card-selection-frame1,
+  .payment1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .payment1 {
+    margin: 0;
+    height: 80px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .card-selection-frame1 {
+    width: 195px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    flex-direction: row;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+    font-family: var(--font-itim);
+  }
+  .ev-taxi-frame1 {
+    align-self: stretch;
+    width: 426px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 22px;
+    max-width: 100%;
+  }
+  .services-section-child {
+    align-self: stretch;
+    width: 195px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    display: none;
+  }
+  .our-services7,
+  .services-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-services7 {
+    height: 80px;
+    position: relative;
+    z-index: 2;
+  }
+  .services-section {
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    flex-direction: row;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .group-icon3 {
+    height: 80px;
+    width: 87px;
+    position: relative;
+    min-height: 80px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .company-info-frame,
+  .payment-frames {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .company-info-frame {
+    width: 302px;
+    justify-content: flex-start;
+    gap: 0 20px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    font-family: var(--font-itim);
+  }
+  .payment-frames {
+    align-self: stretch;
+    height: 80px;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-41xl);
+    color: var(--color-white);
+    font-family: var(--font-keania-one);
+  }
+  .frame-child17 {
+    width: 968px;
+    height: 780px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-200);
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .preferred-payment-options {
+    margin: 0;
+    height: 50px;
+    width: 572px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .payment-options-text {
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-6xs) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .net-banking-and-google-pay-child {
+    align-self: stretch;
+    width: 720px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .heroiconscredit-card {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .debitcredit-card {
+    margin: 0;
+  }
+  .all-cards {
+    margin: 0;
+    font-size: var(--font-size-11xl);
+    white-space: pre-wrap;
+  }
+  .debitcredit-card-all-container {
+    height: 100px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 263px;
+    max-width: 100%;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .net-banking-and-google-pay,
+  .other-payment-options {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .net-banking-and-google-pay {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-29xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 0 20px;
+  }
+  .other-payment-options {
+    margin: 0;
+    width: 572px;
+    height: 50px;
+    position: relative;
+    font-size: var(--font-size-26xl);
+    font-weight: 600;
+    font-family: var(--font-karma);
+    white-space: pre-wrap;
+    flex-shrink: 0;
+  }
+  .bibank-googlepay-child {
+    align-self: stretch;
+    width: 720px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .bibank-icon {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .net-banking {
+    margin: 0;
+  }
+  .all-banks-are {
+    margin: 0;
+    font-size: var(--font-size-11xl);
+  }
+  .net-banking-all-container {
+    height: 100px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 263px;
+    max-width: 100%;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .bibank-googlepay,
+  .bibank-googlepay-item {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    max-width: 100%;
+  }
+  .bibank-googlepay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-29xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 0 20px;
+    z-index: 2;
+  }
+  .bibank-googlepay-item {
+    width: 720px;
+    position: relative;
+    display: none;
+  }
+  .arcticonsgoogle-pay {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .upi {
+    margin: 0;
+  }
+  .google-pay {
+    margin: 0;
+    font-size: var(--font-size-11xl);
+    white-space: pre-wrap;
+  }
+  .bibank-googlepay1,
+  .upi-google-pay-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .upi-google-pay-container {
+    height: 100px;
+    flex: 1;
+    position: relative;
+    min-width: 313px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .bibank-googlepay1 {
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-29xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 0 20px;
+    z-index: 2;
+  }
+  .net-banking-u-p-i,
+  .other-payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .net-banking-u-p-i {
+    align-self: stretch;
+    gap: 27px 0;
+  }
+  .other-payment-methods {
+    width: 720px;
+    gap: 20px 0;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-inika);
+  }
+  .select-payment-option {
+    height: 50px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .cancel-button-child {
+    align-self: stretch;
+    width: 250px;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-red);
+    display: none;
+  }
+  .cancel {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 3;
+  }
+  .cancel-button {
+    align-self: stretch;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-red);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .text-content {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 36px 0 0;
+    box-sizing: border-box;
+    margin-left: -234px;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-karma);
+  }
+  .company-info1,
+  .select-payment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .company-info1 {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  .select-payment {
+    width: 720px;
+    padding: 0 0 0 var(--padding-3xs);
+    font-size: var(--font-size-11xl);
+    font-family: var(--font-itim);
+  }
+  .frame-wrapper5,
+  .rectangle-parent13,
+  .select-payment {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-parent13 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-200);
+    border: 2px solid var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 60px 144px var(--padding-xl);
+    gap: 13px 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-wrapper5 {
+    width: 1078px;
+    flex-direction: row;
+    padding: 0 55px;
+  }
+  .frame-main,
+  .frame-wrapper5,
+  .payment-frames-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .payment-frames-parent {
+    width: 1174px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 85px 0;
+    text-align: left;
+    font-size: var(--font-size-26xl);
+    color: var(--color-black);
+    font-family: var(--font-karma);
+  }
+  .frame-main {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-mini) var(--padding-xl) var(--padding-45xl)
+      var(--padding-3xl);
+    box-sizing: border-box;
+    gap: 0 14px;
+    background-image: url(./public/frame-11@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .frame-frame-child {
+    width: 1440px;
+    height: 176px;
+    position: relative;
+    background-color: var(--color-black);
+    display: none;
+    max-width: 100%;
+  }
+  .about-us6,
+  .blog7,
+  .company6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .company6 {
+    margin: 0;
+    width: 195px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .about-us6,
+  .blog7 {
+    height: 50px;
+    text-decoration: underline;
+  }
+  .about-us6 {
+    flex: 1;
+    min-width: 92px;
+    max-width: 195px;
+  }
+  .blog7 {
+    align-self: stretch;
+    flex-shrink: 0;
+  }
+  .blog-text2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 149px;
+    max-width: 199px;
+  }
+  .careers7,
+  .gift-cards6 {
+    height: 50px;
+    flex: 1;
+    position: relative;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 92px;
+    max-width: 195px;
+    z-index: 1;
+  }
+  .group-frame {
+    width: 836px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    gap: 0 17px;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+  }
+  .frame-frame1,
+  .payment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-frame1 {
+    align-self: stretch;
+    background-color: var(--color-black);
+    padding: var(--padding-lgi) var(--padding-66xl);
+    box-sizing: border-box;
+    gap: 7px 0;
+    min-height: 176px;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-inika);
+  }
+  .payment {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1025px) {
+    .payment-frames-parent {
+      gap: 85px 0;
+    }
+    .frame-main {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .rectangle-parent13 {
+      padding-top: var(--padding-13xl);
+      padding-right: var(--padding-11xl);
+      padding-bottom: 94px;
+      box-sizing: border-box;
+    }
+    .frame-wrapper5 {
+      padding-left: var(--padding-8xl);
+      padding-right: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .frame-main {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-23xl);
+      box-sizing: border-box;
+    }
+    .frame-frame1 {
+      padding-left: var(--padding-23xl);
+      padding-right: var(--padding-23xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .preferred-payment-options {
+      font-size: var(--font-size-8xl);
+    }
+    .debitcredit-card-all-container {
+      font-size: var(--font-size-lg);
+    }
+    .other-payment-options {
+      font-size: var(--font-size-8xl);
+    }
+    .net-banking-all-container,
+    .select-payment-option,
+    .upi-google-pay-container {
+      font-size: var(--font-size-lg);
+    }
+    .cancel {
+      font-size: var(--font-size-2xl);
+    }
+    .rectangle-parent13 {
+      padding-top: var(--padding-2xl);
+      padding-bottom: 61px;
+      box-sizing: border-box;
+    }
+    .company6 {
+      font-size: var(--font-size-5xl);
+    }
+    .about-us6,
+    .blog7,
+    .careers7,
+    .gift-cards6 {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .preferred-payment-options {
+      font-size: var(--font-size-17xl);
+    }
+    .debitcredit-card-all-container {
+      font-size: var(--font-size-5xl);
+    }
+    .net-banking-and-google-pay {
+      flex-wrap: wrap;
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .other-payment-options {
+      font-size: var(--font-size-17xl);
+    }
+    .net-banking-all-container {
+      font-size: var(--font-size-5xl);
+    }
+    .bibank-googlepay {
+      flex-wrap: wrap;
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .upi-google-pay-container {
+      font-size: var(--font-size-5xl);
+    }
+    .bibank-googlepay1 {
+      flex-wrap: wrap;
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .select-payment-option {
+      font-size: var(--font-size-5xl);
+    }
+    .cancel {
+      font-size: var(--font-size-9xl);
+    }
+    .payment-frames-parent {
+      gap: 85px 0;
+    }
+    .frame-main {
+      padding-bottom: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .company6 {
+      font-size: var(--font-size-13xl);
+    }
+    .frame-frame1 {
+      padding-left: var(--padding-2xl);
+    }
+}

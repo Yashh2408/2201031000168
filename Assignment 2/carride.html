@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./carride.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="car-ride">
+      <div class="wrapper-image">
+        <img class="image-icon" alt="" src="./public/image@2x.png" />
+      </div>
+      <section class="logo-frame-wrapper">
+        <div class="logo-frame1">
+          <img
+            class="logo-2-icon"
+            loading="lazy"
+            alt=""
+            src="./public/logo-2@2x.png"
+          />
+
+          <div class="rides-frame-parent">
+            <div class="rides-frame">
+              <div class="our-services3"></div>
+              <h1 class="evtaxi3">EvTaxi</h1>
+            </div>
+            <div class="rides-frame1">
+              <div class="rides-frame-child"></div>
+              <div class="ride">Ride</div>
+            </div>
+          </div>
+          <div class="today-normal-text">
+            <div class="time-frame">
+              <div class="time-frame-child"></div>
+              <div class="our-services4">Our Services</div>
+            </div>
+          </div>
+          <img
+            class="group-icon"
+            loading="lazy"
+            alt=""
+            src="./public/group.svg"
+            id="group"
+          />
+        </div>
+      </section>
+      <div class="car-ride-child"></div>
+      <section class="company-text1">
+        <form class="choose-ride-group">
+          <div class="choose-ride-group-child"></div>
+          <div class="pick-up-location-group">
+            <div class="choose-a-ride">Choose a Ride</div>
+          </div>
+          <div class="pick-up-location-group1">
+            <div class="rectangle-parent4">
+              <div class="frame-child7"></div>
+              <input
+                class="pickup-location"
+                placeholder="PickUp Location"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="pick-up-location-group2">
+            <div class="rectangle-parent5">
+              <div class="frame-child8"></div>
+              <input
+                class="drop-location"
+                placeholder="Drop Location"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="pick-up-location-group3">
+            <div class="time-electric-frame">
+              <div class="time-electric-frame-child"></div>
+              <div class="today">Today &gt;</div>
+            </div>
+            <div class="time-electric-frame1">
+              <div class="ahmedabad-gujarat-frame"></div>
+              <div class="time">Time &gt;</div>
+            </div>
+          </div>
+          <div class="pick-up-location-group4">
+            <div class="rectangle-parent6">
+              <div class="frame-child9"></div>
+              <div class="select-ride">Select Ride</div>
+            </div>
+          </div>
+          <div class="pick-up-location-group5">
+            <div class="rectangle-parent7">
+              <div class="frame-child10"></div>
+              <div class="normal">Normal</div>
+            </div>
+            <div class="rectangle-parent8">
+              <div class="frame-child11"></div>
+              <div class="electric">Electric</div>
+            </div>
+          </div>
+          <div class="pick-up-location-group6">
+            <button class="rectangle-parent9">
+              <div class="frame-child12"></div>
+              <div class="continue2" id="continueText">Continue</div>
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="city-frames">
+        <div class="company-text2">
+          <div class="company-text-item"></div>
+          <div class="suggested-location">Suggested Location</div>
+          <div class="choose-ride-frame">
+            <div class="choose-ride-frame-child"></div>
+            <input
+              class="ahmedabad-gujarat"
+              placeholder="Ahmedabad, Gujarat"
+              type="text"
+            />
+          </div>
+          <div class="choose-ride-frame1">
+            <div class="choose-ride-frame-item"></div>
+            <input
+              class="surat-gujarat"
+              placeholder="Surat, Gujarat"
+              type="text"
+            />
+          </div>
+        </div>
+      </section>
+      <footer class="our-services-frame1">
+        <div class="our-services-frame-child"></div>
+        <div class="company3">Company</div>
+        <div class="frame-group">
+          <div class="about-us3">About Us</div>
+          <div class="frame-frame">
+            <div class="blog3">Blog</div>
+          </div>
+          <div class="careers3">Careers</div>
+          <div class="gift-cards3">Gift Cards</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var group = document.getElementById("group");
+      if (group) {
+        group.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var continueText = document.getElementById("continueText");
+      if (continueText) {
+        continueText.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+    }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="payment">
+      <main class="frame-main">
+        <img
+          class="unsplashg8wprjynqwq-icon5"
+          alt=""
+          src="./public/unsplashg8wprjynqwq@2x.png"
+        />
+
+        <img
+          class="logo-2-icon3"
+          loading="lazy"
+          alt=""
+          src="./public/logo-23@2x.png"
+        />
+
+        <section class="payment-frames-parent">
+          <header class="payment-frames">
+            <div class="ev-taxi-frame1">
+              <div class="card-selection-frame">
+                <div class="div"></div>
+                <h1 class="evtaxi6">EvTaxi</h1>
+              </div>
+              <div class="card-selection-frame1">
+                <div class="card-selection-frame-child"></div>
+                <h3 class="payment1">Payment</h3>
+              </div>
+            </div>
+            <div class="company-info-frame">
+              <div class="services-section">
+                <div class="services-section-child"></div>
+                <div class="our-services7">Our Services</div>
+              </div>
+              <img
+                class="group-icon3"
+                loading="lazy"
+                alt=""
+                src="./public/group3.svg"
+                id="group"
+              />
+            </div>
+          </header>
+          <div class="frame-wrapper5">
+            <div class="rectangle-parent13">
+              <div class="frame-child17"></div>
+              <div class="payment-options-text">
+                <h2 class="preferred-payment-options">
+                  Preferred Payment Options
+                </h2>
+              </div>
+              <div class="other-payment-methods">
+                <div class="net-banking-and-google-pay">
+                  <div class="net-banking-and-google-pay-child"></div>
+                  <img
+                    class="heroiconscredit-card"
+                    loading="lazy"
+                    alt=""
+                    src="./public/heroiconscreditcard.svg"
+                  />
+
+                  <div
+                    class="debitcredit-card-all-container"
+                    id="debitCreditCardAll"
+                  >
+                    <span>
+                      <p class="debitcredit-card">Debit/Credit Card</p>
+                      <p class="all-cards">All cards are supported</p>
+                    </span>
+                  </div>
+                </div>
+                <h2 class="other-payment-options">Other Payment Options</h2>
+                <div class="net-banking-u-p-i">
+                  <div class="bibank-googlepay">
+                    <div class="bibank-googlepay-child"></div>
+                    <img
+                      class="bibank-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/bibank.svg"
+                    />
+
+                    <div class="net-banking-all-container" id="netBankingAll">
+                      <span>
+                        <p class="net-banking">Net Banking</p>
+                        <p class="all-banks-are">All banks are supported</p>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="bibank-googlepay1">
+                    <div class="bibank-googlepay-item"></div>
+                    <img
+                      class="arcticonsgoogle-pay"
+                      loading="lazy"
+                      alt=""
+                      src="./public/arcticonsgooglepay.svg"
+                    />
+
+                    <div class="upi-google-pay-container" id="uPIGooglePay">
+                      <span>
+                        <p class="upi">UPI</p>
+                        <p class="google-pay">Google Pay, Paytm, PhonePe</p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="select-payment">
+                <div class="company-info1">
+                  <div class="select-payment-option">Select Payment Option</div>
+                  <div class="text-content">
+                    <div class="cancel-button">
+                      <div class="cancel-button-child"></div>
+                      <h3 class="cancel">Cancel</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="frame-frame1">
+        <div class="frame-frame-child"></div>
+        <h2 class="company6">Company</h2>
+        <div class="group-frame">
+          <div class="about-us6">About Us</div>
+          <div class="blog-text2">
+            <div class="blog7">Blog</div>
+          </div>
+          <div class="careers7">Careers</div>
+          <div class="gift-cards6">Gift Cards</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var group = document.getElementById("group");
+      if (group) {
+        group.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      
+      var debitCreditCardAll = document.getElementById("debitCreditCardAll");
+      if (debitCreditCardAll) {
+        debitCreditCardAll.addEventListener("click", function (e) {
+          window.location.href = "./payment-completed.html";
+        });
+      }
+      
+      var netBankingAll = document.getElementById("netBankingAll");
+      if (netBankingAll) {
+        netBankingAll.addEventListener("click", function (e) {
+          window.location.href = "./payment-completed.html";
+        });
+      }
+      
+      var uPIGooglePay = document.getElementById("uPIGooglePay");
+      if (uPIGooglePay) {
+        uPIGooglePay.addEventListener("click", function (e) {
+          window.location.href = "./payment-completed.html";
+        });
+    }

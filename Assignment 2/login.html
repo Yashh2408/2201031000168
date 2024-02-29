@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <main class="unsplashg8wprjynqwq-parent">
+        <img
+          class="unsplashg8wprjynqwq-icon"
+          alt=""
+          src="./public/unsplashg8wprjynqwq@2x.png"
+        />
+
+        <section class="logo-frame-parent">
+          <div class="logo-frame">
+            <img
+              class="logo-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/logo-1@2x.png"
+            />
+
+            <h1 class="evtaxi">EvTaxi</h1>
+          </div>
+          <nav class="our-services-and-signup">
+            <div class="help">Help</div>
+            <div class="help-text">
+              <div class="help-text-child" id="rectangle"></div>
+              <div class="our-services">Our Services</div>
+            </div>
+            <div class="help-text1">
+              <div class="help-text-item" id="rectangle"></div>
+              <h3 class="sign-up">Sign-up</h3>
+            </div>
+          </nav>
+        </section>
+        <div class="input-field-frame">
+          <form class="line-frame">
+            <div class="line-frame-child"></div>
+            <div class="login-wrapper">
+              <div class="login1">Login</div>
+            </div>
+            <div class="or-text">
+              <div class="facebook-login-button-frame">
+                <div class="facebook-login-button-frame-child"></div>
+                <input
+                  class="enter-phone-number"
+                  placeholder="Enter phone number or email"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="password-input-wrapper">
+              <div class="password-input">
+                <div class="login-label">
+                  <div class="login-label-child"></div>
+                  <input
+                    class="password-label"
+                    placeholder="Password"
+                    type="text"
+                  />
+
+                  <img
+                    class="jameye-close-f-icon"
+                    alt=""
+                    src="./public/jameyeclosef.svg"
+                  />
+                </div>
+                <div class="help-text2">
+                  <div class="signup-frame">
+                    <div class="forgot-password">Forgot password?</div>
+                  </div>
+                  <button class="enter-email-or-phone-frame">
+                    <div class="enter-email-or-phone-frame-child"></div>
+                    <div class="continue" id="continueText">Continue</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="line-frames">
+              <div class="o-r-label">
+                <div class="about-us-careers-gifts-frame">
+                  <div class="blog-text"></div>
+                </div>
+                <div class="or">or</div>
+                <div class="about-us-careers-gifts-frame1">
+                  <div class="about-us-careers-gifts-frame-child"></div>
+                </div>
+              </div>
+            </div>
+            <div class="or-text1">
+              <button class="rectangle-parent">
+                <div class="frame-child"></div>
+                <div class="continue-with-google-wrapper">
+                  <div class="continue-with-google" id="continueWithGoogle">
+                    Continue with Google
+                  </div>
+                </div>
+                <img
+                  class="frame-item"
+                  alt=""
+                  src="./public/rectangle-11@2x.png"
+                />
+              </button>
+            </div>
+            <div class="facebook-continue-button">
+              <div class="rectangle-group">
+                <div class="frame-inner" id="rectangle"></div>
+                <div class="continue-with-facebook">Continue with Facebook</div>
+                <img
+                  class="facebook-logo-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/rectangle-12@2x.png"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer class="company-frame">
+        <div class="company-frame-child"></div>
+        <h2 class="company">Company</h2>
+        <div class="about-us-careers-frame">
+          <div class="about-us">About Us</div>
+          <div class="blog-frame">
+            <div class="blog">Blog</div>
+          </div>
+          <div class="careers">Careers</div>
+          <div class="gift-cards">Gift Cards</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./our-services.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+      
+      var continueText = document.getElementById("continueText");
+      if (continueText) {
+        continueText.addEventListener("click", function (e) {
+          window.location.href = "./car-ride.html";
+        });
+      }
+      
+      var continueWithGoogle = document.getElementById("continueWithGoogle");
+      if (continueWithGoogle) {
+        continueWithGoogle.addEventListener("click", function (e) {
+          window.location.href = "./car-ride.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./car-ride.html";
+        });
+    }

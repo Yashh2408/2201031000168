@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./service.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="our-services2">
+      <main class="unsplashg8wprjynqwq-group">
+        <img
+          class="unsplashg8wprjynqwq-icon2"
+          alt=""
+          src="./public/unsplashg8wprjynqwq@2x.png"
+        />
+
+        <section class="frame-container">
+          <div class="frame-parent">
+            <div class="logo-1-parent">
+              <img
+                class="logo-1-icon2"
+                loading="lazy"
+                alt=""
+                src="./public/logo-12@2x.png"
+              />
+
+              <h2 class="evtaxi2">EvTaxi</h2>
+            </div>
+            <nav class="help-parent">
+              <div class="help2">Help</div>
+              <div class="rectangle-parent3">
+                <div class="frame-child5"></div>
+                <h3 class="sign-up1" id="signUpText">Sign-up</h3>
+              </div>
+              <div class="video-learning-is-boring-becau-parent">
+                <div
+                  class="video-learning-is-boring-becau"
+                  id="videoLearningIsBoringBecau"
+                ></div>
+                <h3 class="sign-in1">Sign-in</h3>
+              </div>
+            </nav>
+          </div>
+        </section>
+        <section class="frame-section">
+          <div class="services-parent">
+            <h1 class="services">Services</h1>
+            <div class="travel-the-world-with-us-wrapper">
+              <h3 class="travel-the-world">Travel the world with US</h3>
+            </div>
+          </div>
+        </section>
+        <section class="company-container-wrapper">
+          <div class="company-container">
+            <div class="signup-careers-gift-frame">
+              <div class="about-us-frame1" id="aboutUsFrame"></div>
+              <div class="city-ride-parent">
+                <h2 class="city-ride">City Ride</h2>
+                <img
+                  class="service-city-1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/service-city-1@2x.png"
+                />
+              </div>
+            </div>
+            <div class="signup-careers-gift-frame1">
+              <div class="signup-careers-gift-frame-child" id="rectangle"></div>
+              <div class="rent-a-car-parent">
+                <h2 class="rent-a-car">Rent a Car</h2>
+                <div class="service-time-1-parent">
+                  <img
+                    class="service-time-1"
+                    alt=""
+                    src="./public/service-time-1@2x.png"
+                  />
+
+                  <img
+                    class="service-rental-1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/service-rental-1@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <img
+          class="service-driver-1"
+          loading="lazy"
+          alt=""
+          src="./public/service-driver-1@2x.png"
+        />
+      </main>
+      <footer class="frame-footer">
+        <div class="frame-child6"></div>
+        <h2 class="company2">Company</h2>
+        <div class="blog-text1">
+          <div class="about-us2">About Us</div>
+          <div class="signup-rectangle-frame">
+            <div class="blog2">Blog</div>
+          </div>
+          <div class="careers2">Careers</div>
+          <div class="gift-cards2">Gift Cards</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var signUpText = document.getElementById("signUpText");
+      if (signUpText) {
+        signUpText.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+      
+      var videoLearningIsBoringBecau = document.getElementById(
+        "videoLearningIsBoringBecau"
+      );
+      if (videoLearningIsBoringBecau) {
+        videoLearningIsBoringBecau.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var aboutUsFrame = document.getElementById("aboutUsFrame");
+      if (aboutUsFrame) {
+        aboutUsFrame.addEventListener("click", function (e) {
+          window.location.href = "./car-ride.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./rental.html";
+        });
+    }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Keania One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <main class="signin-frame">
+        <img
+          class="unsplashg8wprjynqwq-icon1"
+          alt=""
+          src="./public/unsplashg8wprjynqwq@2x.png"
+        />
+
+        <section class="our-services-frame">
+          <div class="help-text3">
+            <img
+              class="logo-1-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/logo-11@2x.png"
+            />
+
+            <h1 class="evtaxi1">EvTaxi</h1>
+          </div>
+          <nav class="frame-wrapper">
+            <div class="help1">Help</div>
+            <div class="register-frames">
+              <div
+                class="hello-there-im-babylen-rivarez"
+                id="helloThereImBabylenRivarez"
+              ></div>
+              <div class="our-services1">Our Services</div>
+            </div>
+            <div class="register-frames1">
+              <div class="register-frames-child"></div>
+              <div class="sign-in" id="signInText">Sign-in</div>
+            </div>
+          </nav>
+        </section>
+        <div class="register-frame">
+          <form class="frame-enclosure">
+            <div class="frame-enclosure-child"></div>
+            <div class="email-input">
+              <div class="register1">Register</div>
+            </div>
+            <div class="email-input1">
+              <div class="o-t-p-input-parent">
+                <div class="o-t-p-input">
+                  <div class="o-t-p-input-child"></div>
+                  <div class="first-name">First Name</div>
+                </div>
+                <div class="confirm-password-input">
+                  <div class="confirm-password-input-child"></div>
+                  <div class="last-name">Last Name</div>
+                </div>
+              </div>
+            </div>
+            <div class="email-input2">
+              <div class="rectangle-container">
+                <div class="rectangle-div"></div>
+                <input
+                  class="eneter-your-email"
+                  placeholder="Eneter Your Email"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="email-input3">
+              <div class="email-input-child"></div>
+              <div class="eneter-phone-number-wrapper">
+                <div class="eneter-phone-number">Eneter phone number</div>
+              </div>
+              <div class="get-otp">Get OTP</div>
+            </div>
+            <div class="email-input4">
+              <div class="frame-div">
+                <div class="frame-child1"></div>
+                <input
+                  class="eneter-otp"
+                  placeholder="Eneter otp"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="email-input5">
+              <div class="rectangle-parent1">
+                <div class="frame-child2"></div>
+                <input
+                  class="eneter-new-password"
+                  placeholder="Eneter new password"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="email-input6">
+              <div class="rectangle-parent2">
+                <div class="frame-child3"></div>
+                <input
+                  class="confirm-password"
+                  placeholder="Confirm password"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="email-input7">
+              <button class="frame-button">
+                <div class="frame-child4"></div>
+                <div class="continue1" id="continueText">Continue</div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer class="company-text">
+        <div class="company-text-child"></div>
+        <div class="company1">Company</div>
+        <div class="about-us-frame">
+          <div class="about-us1">About Us</div>
+          <div class="gift-cards-section">
+            <div class="blog1">Blog</div>
+          </div>
+          <div class="careers1">Careers</div>
+          <div class="gift-cards1">Gift Cards</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var helloThereImBabylenRivarez = document.getElementById(
+        "helloThereImBabylenRivarez"
+      );
+      if (helloThereImBabylenRivarez) {
+        helloThereImBabylenRivarez.addEventListener("click", function (e) {
+          window.location.href = "./our-services.html";
+        });
+      }
+      
+      var signInText = document.getElementById("signInText");
+      if (signInText) {
+        signInText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var continueText = document.getElementById("continueText");
+      if (continueText) {
+        continueText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+    }
